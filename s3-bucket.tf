@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source = "terraform-aws-modules/s3-bucket/aws"
+  source = "app.terraform.io/mridulchopra-training/s3-bucket/aws"
 
   bucket_prefix = "my-s3-bucket-mridul"
   version = "2.8.0"
